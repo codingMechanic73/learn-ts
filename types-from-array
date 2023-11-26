@@ -1,0 +1,7 @@
+const COLORS = ["VIOLET", "INDIGO", "BLUE", "GREEN", "YELLOW", "ORANGE", "RED];
+
+const ColorType = typeof COLORS[number];
+
+const getColorIndex = (color: ColorType) => {
+  return COLORS.indexOf(color);
+}
